@@ -20,6 +20,8 @@ DELETE | /message/ID | delete message with ID
 
 * Install Sails.js (it's to Node.js what RoR is to Ruby): `sudo npm install sails -g`
 * Create the  application:  `sails new messageApp && cd messageApp`
+* Create an api model: `sails generate api message`
+* Run the application `sails lift`
 
 ## First tests
 
